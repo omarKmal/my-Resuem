@@ -15,7 +15,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { screenSize } from "../../containers/responsive";
 import useOutSideClick from "../../containers/useOusSideClick";
-import { Link } from "react-router-dom";
 
 const { mainColor, grayFont, barColor } = color;
 
