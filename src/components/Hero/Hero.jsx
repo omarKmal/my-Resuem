@@ -211,15 +211,15 @@ function Hero({ isOpen, isDesktop }) {
       </HeroWrapper>
       <ExpContainer>
         <Exp>
-          <Num>1 + </Num>
+          <Num>2 + </Num>
           <Text> Years Experience</Text>
         </Exp>
         <Exp>
-          <Num>3</Num>
+          <Num>10 +</Num>
           <Text>Completed Projects</Text>
         </Exp>
         <Exp>
-          <Num>11</Num>
+          <Num>20 +</Num>
           <Text>Happy Customers</Text>
         </Exp>
         <Exp>

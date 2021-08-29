@@ -1,20 +1,20 @@
-import imgOne from './images/testimonial-1-140x140.jpg'
-import imgTwo from './images/testimonial-2-140x140.jpg'
-import imgThree from './images/testimonial-3-140x140.jpg'
-import imgFour from './images/testimonial-4-140x140.jpg'
-
+import imgOne from "./images/testimonial-1-140x140.jpg";
+import imgTwo from "./images/testimonial-2-140x140.jpg";
+import imgThree from "./images/testimonial-3-140x140.jpg";
+import imgFour from "./images/testimonial-4-140x140.jpg";
 
 export const Data = [
   {
     progress: [
       { progress: "90%", name: "HTML" },
       { progress: "95%", name: "CSS" },
-      { progress: "85%", name: "JS" },
-      { progress: "60%", name: "PS" },
+      { progress: "85%", name: "JavaScript" },
+      { progress: "70%", name: "PS" },
       { progress: "85%", name: "React" },
       { progress: "95%", name: "JQuery" },
-      { progress: "80%", name: "Puj" },
       { progress: "80%", name: "Python" },
+      { progress: "90%", name: "Vue" },
+      { progress: "80%", name: "PHP" },
     ],
   },
 ];
@@ -55,98 +55,85 @@ export const servicesData = [
 export const PriceData = [
   {
     priceTitle: "Starter Price",
-    price : "Free",
-    FServ: [
-      "Ui Design",
-      "Web " ,
-    ],
-    PServ: [
-      "Logo design",
-      "SEO optimization",
-      "WordPress "
-    ]
-  } ,
+    price: "Free",
+    FServ: ["Ui Design", "Web "],
+    PServ: ["Logo design", "SEO optimization", "WordPress "],
+  },
   {
     priceTitle: "Hourly Payment",
-    price : "15",
-    FServ: [
-      "Ui Design",
-      "Web " ,
-      "Logo design",
-    ],
-    PServ: [
-      "SEO optimization",
-      "WordPress "
-    ]
-  } ,
+    price: "Premium",
+    FServ: ["Ui Design", "Web ", "Logo design"],
+    PServ: ["SEO optimization", "WordPress "],
+  },
   {
     priceTitle: "Full Time",
-    price : "10",
+    price: "Good",
     FServ: [
       "Ui Design",
-      "Web " ,
+      "Web ",
       "Logo design",
       "SEO optimization",
-      "WordPress "
+      "WordPress ",
     ],
-    PServ: []
-  } 
-]
+    PServ: [],
+  },
+];
 
 export const sliderData = [
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgOne
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgOne,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgTwo
-    
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgTwo,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgThree
-    
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgThree,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgFour
-    
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgFour,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgOne
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgOne,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgTwo
-    
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgTwo,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgThree
-    
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgThree,
   },
   {
     name: "Paul Trueman",
     title: "Template author",
-    content: "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
-    img: imgFour
-    
+    content:
+      "Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.",
+    img: imgFour,
   },
-  
-]
+];

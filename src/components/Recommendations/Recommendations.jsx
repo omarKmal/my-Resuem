@@ -121,7 +121,7 @@ function Recommendations() {
             showThumbs={false}
             preventMovementUntilSwipeScrollTolerance={true}
             interval={5000}
-            autoPlay={true}
+            autoPlay={false}
             showStatus={false}
             transitionTime={500}
           >
